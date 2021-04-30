@@ -1,0 +1,74 @@
+@media screen and (min-width: 576px) {
+  h1 {
+    font-size: 36px;
+    line-height: 49px; }
+  .banner p {
+    font-size: 17px; } }
+
+@media screen and (min-width: 768px) {
+  .c-my-10 [class*="col-"] {
+    margin-bottom: 10px;
+    margin-top: 10px; }
+  .border-left-blue {
+    padding-left: 25px;
+    border-left: 3px solid #0ac775; }
+  .several-buttons {
+    align-items: flex-start;
+    flex-direction: row; }
+    .several-buttons .btn:not(:first-child) {
+      margin-top: 0px; }
+    .several-buttons .btn:not(:last-child) {
+      margin-right: 20px; }
+  .icon-inline {
+    justify-content: flex-start; } }
+
+@media screen and (min-width: 992px) {
+  .steps .icon-box {
+    width: 26%;
+    margin: 0 !important; }
+  .quote-owl .owl-nav {
+    display: block; }
+  .mw-lg-75 {
+    max-width: unset; }
+  .pt-lg-30 {
+    padding-top: 0; }
+  .c-pt-lg-35 [class*="col-"]:not(:first-child) {
+    padding-top: 0; }
+  .quote-item.quote-layout1 img {
+    max-width: 150px; }
+  #quote-image-carousel .owl-item.active.center img {
+    max-width: 200px; }
+  #quote-image-carousel {
+    max-width: 650px;
+    margin: auto; }
+  h6 {
+    font-size: 1.3rem; }
+  .steps .icon-box:nth-child(2) .media-image::before {
+    content: '';
+    position: absolute;
+    height: 26px;
+    width: 156px;
+    top: 40%;
+    left: -50%;
+    background: url(../pictures/step-arrow1.png) no-repeat center/contain; }
+  .steps .icon-box:nth-child(3) .media-image::before {
+    content: '';
+    position: absolute;
+    height: 26px;
+    width: 156px;
+    top: 40%;
+    left: -50%;
+    background: url(../pictures/step-arrow2.png) no-repeat center/contain; }
+  h1 {
+    font-size: 48px;
+    line-height: 60px; }
+  .banner p {
+    line-height: 32px;
+    font-size: 18px; }
+  .borderwhite-lg-right {
+    border-right: 1px solid #fff; } }
+
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 53px;
+    line-height: 70px; } }

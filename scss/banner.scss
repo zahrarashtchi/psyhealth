@@ -1,0 +1,176 @@
+.banner{
+  .row{
+    h1,span,.btn{
+      color: #fff;
+    }
+    .banner-leader-text{
+      font-weight: 100;
+      margin-bottom: 7px;
+      display: inline-block;
+      font-size: 16px !important;
+      line-height: 28px !important;
+    }
+  }
+}
+.hesperiden.tparrows{
+  background: transparent !important;
+  display: none;
+  font-weight: normal;
+}
+.tp-leftarrow::before{
+  content:"\f104" !important;
+  font-family: "FontAwesome" !important;
+  font-size: 40px !important;
+}
+.tp-rightarrow::before{
+  content:"\f105" !important;
+  font-family: "FontAwesome" !important;
+  font-size: 40px !important;
+}
+.flexslider{
+  border:0;
+  li{
+    position: relative;
+    .background{
+      height: 450px;
+    }
+    .container{
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      display: none;
+      .row{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top:calc(50% + 30px);
+        transform: translate3d(0,-50%,0);
+      }
+    }
+  }
+  li.flex-active-slide{
+    .container{
+      display: block;
+    }
+  }
+}
+.banner{
+  .before-feautured-word{
+    font-size: 17px ;
+    line-height: 28px ;
+    text-transform: capitalize;
+    font-weight: 300;
+  }
+  .feautured-word{
+    padding: 0.4em 0;
+    font-size: 29px;
+    line-height: 37px ;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+}
+.vertical-dots{
+  .flex-control-paging{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    bottom: auto;
+    top: calc(50% + 30px);
+    transform: translate3d(0,-50%,0);
+    right: 4%;
+    display: none;
+    li{
+      margin-bottom: 35px;
+      a{
+        width: 14px;
+        height: 14px;
+        box-shadow: none;
+        border: 1px solid #fff;
+        background: transparent;
+      }
+      a:hover{
+        background: #fff;
+      }
+      a.flex-active{
+        background: #fff;
+      }
+    }
+  }
+}
+@media screen and (min-width:500px) {
+  .banner br{
+    display: block !important;
+  }
+}
+@media screen and (min-width:576px) {
+  .banner{
+    .before-feautured-word{
+      font-size: 20px;
+    }
+    .feautured-word{
+      font-size: 45px;
+      line-height: 55px ;
+    }
+  }
+  .flexslider{
+    li{
+      .background{
+        height: 550px;
+      }
+    }
+  }
+}
+@media screen and (min-width:768px) {
+  .banner{
+      .before-feautured-word{
+        font-size: 23px;
+    }
+    .feautured-word{
+      font-size: 55px;
+      line-height: 65px ;
+    }
+  }
+  .hesperiden.tparrows{
+    display: block;
+  }
+  .flexslider{
+    li{
+      .background{
+        height: 650px;
+      }
+    }
+  }
+}
+@media screen and (min-width:992px) {
+  .banner{
+    .before-feautured-word{
+      font-size: 25px;
+    }
+    .feautured-word{
+      font-size: 65px;
+      line-height: 75px ;
+    }
+  }
+  .flexslider{
+    li{
+      .background{
+        height: 700px;
+      }
+    }
+  }
+  .vertical-dots{
+    .flex-control-paging{
+      display: flex;
+    }
+  }
+}
+@media screen and (min-width:1200px) {
+  .vertical-dots{
+    .flex-control-paging{
+      display: flex;
+      right: 13%;
+    }
+  }
+}

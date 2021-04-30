@@ -1,0 +1,133 @@
+$color2:#61ba6d;
+
+.quote-item.quote-layout1{
+  position: relative;
+  text-align: center;
+  .quote-image {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img{
+    max-width: 200px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .quote-title{
+    margin-top:45px;
+    p{
+      margin-top:5px;
+      display: inline-block;
+    }
+  }
+  .stars{
+    margin: 11px 0 0;
+    li{
+      display: inline-block;
+      i{
+        margin-left: 5px;
+        font-size: 16px;
+        color: rgb(255, 215, 0);
+      }
+    }
+  }
+}
+.quote-owl{
+  .owl-nav{
+    display: none;
+    [class*="owl-"]{
+      background: #fff !important;
+      color: $color2 !important;
+      border: 2px solid $color2;
+      border-radius: 61%;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      transition: all 0.4s;
+      i{
+        color: $color2;
+      }
+    }
+    [class*="owl-"]:hover{
+      background: $color2 !important;
+      i{
+        color:#fff;
+      }
+    }
+    .owl-prev{
+      left: 45px;
+    }
+    .owl-next{
+      right: 45px;
+    }
+  }
+}
+.owl-carousel .owl-stage-outer{
+  padding-top: 50px;
+}
+.quote-layout2{
+  .owl-theme .owl-nav.disabled + .owl-dots{
+    margin-top: 30px;
+  }
+  .owl-theme .owl-dots .owl-dot span{
+    width: 8px;
+    height: 8px;
+    margin: 3px;
+    border: 0;
+    background: #71be778f !important;
+  }
+  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: #71be77 !important;
+  }
+  .quote-body{
+    padding: 50px;
+    position: relative;
+    overflow: visible;
+    padding-top: 80px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    background: #f3f3f3;
+    p{
+      color: #4e4e4e;
+    }
+    .quote-image{
+      border-radius: 50%;
+      width: 100px;
+      position: absolute;
+      top: -50px;
+      left: 50%;
+      margin-left: -50px;
+    }
+  }
+  .quote-title{
+    color: #63ba6a;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+  .quote-age{
+    display: inline-block;
+    font-size: 15px;
+    color: gray;
+  }
+}
+.quote-sign{
+  font-family: sans;
+  font-size: 40px;
+  color: #63ba6a;
+  font-weight: bold;
+  padding-right: 6px;
+  position: relative;
+  top: 14px;
+}
+.bottom-triangle::after{
+  content: "";
+  position: absolute;
+  border: 25px solid transparent;
+  border-top: 30px solid rgba(0,0,0,0.06);
+  top: calc(100% - 1px);
+  left: 50%;
+  transform: translate3d(-50%,0,0);
+  border-top-color: #f3f3f3;
+}

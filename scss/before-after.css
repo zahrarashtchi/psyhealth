@@ -1,0 +1,54 @@
+.ba-slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.ba-slider img {
+    width: 100%;
+    display:block;
+    max-width:none;
+}
+
+.ba-slider .resize {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+}
+
+
+.ba-slider .handle { /* Thin line seperator */
+  position:absolute;
+  left:50%;
+  top:0;
+  bottom:0;
+  width:2px;
+  margin-left:-2px;
+
+  background: rgba(255,255,255,0.7);
+  cursor: ew-resize;
+}
+
+.ba-slider .handle:after {  /* Big orange knob  */
+    position: absolute;
+    top: 50%;
+    width: 64px;
+    height: 64px;
+    margin: -32px 0 0 -32px;
+
+    content:'\21d4';
+    color:white;
+    font-weight:bold;
+    font-size:36px;
+    text-align:center;
+    line-height:64px;
+
+    border-radius: 50%;
+    transition:all 0.3s ease;
+
+}
+
+.ba-slider .handle.ba-draggable:after {
+
+}

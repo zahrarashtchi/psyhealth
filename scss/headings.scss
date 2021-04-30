@@ -1,0 +1,108 @@
+$pink:#f35873;
+$main-color: $pink;
+$color1:#83c331;
+$color2:#61ba6d;
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.15;
+  font-weight: 600;
+}
+h1:last-child, h2:last-child , h3:last-child ,
+h4:last-child , h5:last-child , h6:last-child{
+  margin-bottom: 0;
+}
+
+h1{
+  font-size: 26px;
+  line-height: 40px;
+}
+
+h2{
+  color:rgb(59, 61, 66);
+  font-size: 30px;
+  line-height: 38px;
+}
+h3,h4,h5{
+  font-size: 1.5rem;
+}
+h6{
+  font-size: 20px;
+}
+h6.special-heading{
+  line-height: 30px;
+}
+.heading-title{
+  position: relative;
+  color: $color2;
+  FONT-WEIGHT: 100;
+  FONT-SIZE: 21pX;
+  margin-bottom: 23px;
+  display: inline-block;
+  background: #fff;
+  padding: 0 6px;
+  text-transform: capitalize;
+}
+.heading-title::before{
+  position: absolute;
+    content: "";
+    height: 2px;
+    background: $color1;
+    left: -40px;
+    right: -40px;
+    top: 50%;
+    z-index: -1;
+}
+
+.left-pseudo-header, .center-pseudo-header{
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.left-pseudo-header::after{
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  bottom: -17px;
+  left: 0;
+  background:#61ba6d;
+}
+.left-pseudo-header.narrow::after{
+  height: 2px;
+  width: 25px;
+}
+.center-pseudo-header::after{
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  bottom: -17px;
+  left: 50%;
+  transform: translateX(-50%);
+  background:#61ba6d;
+}
+@media screen and (min-width:576px) {
+  h1{
+    font-size: 36px;
+    line-height: 52px;
+  }
+}
+@media screen and (min-width:768px) {
+
+}
+@media screen and (min-width:992px) {
+  h2{
+    font-size: 35px;
+    line-height: 42px;
+  }
+   h6{
+     font-size:1.3rem;
+   }
+   h1{
+     font-size: 48px;
+     line-height: 70px;
+   }
+}
+@media screen and (min-width:1200px) {
+
+}

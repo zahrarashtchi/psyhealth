@@ -1,0 +1,268 @@
+/** FONT WEIGHTS **/
+.fw-100{
+  font-weight: 100;
+}
+.fw-300{
+  font-weight: 300;
+}
+.fw-400{
+  font-weight: 400;
+}
+.fw-500{
+  font-weight: 500;
+}
+.fw-600{
+  font-weight: 600;
+}
+.fw-700{
+  font-weight: 700;
+}
+
+/** LETTER SPACING **/
+.letter-sp-small{
+  letter-spacing: 2px;
+}
+.letter-sp-big{
+  letter-spacing: 4px;
+}
+
+/** FONT SIZES **/
+.fs-14{
+  font-size: 14px !important;
+}
+.fs-15{
+  font-size: 15px !important;
+}
+.fs-16{
+  font-size: 16px !important;
+}
+.fs-17{
+  font-size: 17px !important;
+}
+.fs-18{
+  font-size: 18px !important;
+}
+.fs-19{
+  font-size: 19px !important;
+}
+.fs-20{
+  font-size: 20px !important;
+}
+.fs-25{
+  font-size: 25px !important;
+}
+.fs-30{
+  font-size: 30px !important;
+}
+.fs-35{
+  font-size: 35px !important;
+}
+.fs-40{
+  font-size: 40px !important;
+}
+
+/** line-height **/
+.lh-30{
+  line-height: 30px;
+}
+.lh-35{
+  line-height: 35px;
+}
+.lh-38{
+  line-height: 38px;
+}
+/** text-transform **/
+.text-uppercase{
+  text-transform: uppercase;
+}
+.text-capitalize{
+  text-transform: capitalize;
+}
+
+@media screen and (min-width:576px) {
+  /** FONT SIZES **/
+  .fs-sm-14{
+    font-size: 14px !important;
+  }
+  .fs-sm-15{
+    font-size: 15px !important;
+  }
+  .fs-sm-16{
+    font-size: 16px !important;
+  }
+  .fs-sm-17{
+    font-size: 17px !important;
+  }
+  .fs-sm-18{
+    font-size: 18px !important;
+  }
+  .fs-sm-19{
+    font-size: 19px !important;
+  }
+  .fs-sm-20{
+    font-size: 20px !important;
+  }
+  .fs-sm-25{
+    font-size: 25px !important;
+  }
+  .fs-sm-30{
+    font-size: 30px !important;
+  }
+  .fs-sm-35{
+    font-size: 35px !important;
+  }
+  .fs-sm-40{
+    font-size: 40px !important;
+  }
+  /** line-height **/
+  .lh-sm-30{
+    line-height: 30px;
+  }
+  .lh-sm-35{
+    line-height: 35px;
+  }
+  .lh-sm-38{
+    line-height: 38px;
+  }
+}
+@media screen and (min-width:768px) {
+  .fs-md-23{
+    font-size: 23px;
+  }
+  /** FONT SIZES **/
+  .fs-md-14{
+    font-size: 14px !important;
+  }
+  .fs-md-15{
+    font-size: 15px !important;
+  }
+  .fs-md-16{
+    font-size: 16px !important;
+  }
+  .fs-md-17{
+    font-size: 17px !important;
+  }
+  .fs-md-18{
+    font-size: 18px !important;
+  }
+  .fs-md-19{
+    font-size: 19px !important;
+  }
+  .fs-md-20{
+    font-size: 20px !important;
+  }
+  .fs-md-25{
+    font-size: 25px !important;
+  }
+  .fs-md-30{
+    font-size: 30px !important;
+  }
+  .fs-md-35{
+    font-size: 35px !important;
+  }
+  .fs-md-40{
+    font-size: 40px !important;
+  }
+  /** line-height **/
+  .lh-md-30{
+    line-height: 30px;
+  }
+  .lh-md-35{
+    line-height: 35px;
+  }
+  .lh-md-38{
+    line-height: 38px;
+  }
+}
+@media screen and (min-width:992px) {
+  /** FONT SIZES **/
+  .fs-lg-14{
+    font-size: 14px !important;
+  }
+  .fs-lg-15{
+    font-size: 15px !important;
+  }
+  .fs-lg-16{
+    font-size: 16px !important;
+  }
+  .fs-lg-17{
+    font-size: 17px !important;
+  }
+  .fs-lg-18{
+    font-size: 18px !important;
+  }
+  .fs-lg-19{
+    font-size: 19px !important;
+  }
+  .fs-lg-20{
+    font-size: 20px !important;
+  }
+  .fs-lg-25{
+    font-size: 25px !important;
+  }
+  .fs-lg-30{
+    font-size: 30px !important;
+  }
+  .fs-lg-35{
+    font-size: 35px !important;
+  }
+  .fs-lg-40{
+    font-size: 40px !important;
+  }
+  /** line-height **/
+  .lh-lg-30{
+    line-height: 30px;
+  }
+  .lh-lg-35{
+    line-height: 35px;
+  }
+  .lh-lg-38{
+    line-height: 38px;
+  }
+}
+@media screen and (min-width:1200px) {
+  /** FONT SIZES **/
+  .fs-xl-14{
+    font-size: 14px !important;
+  }
+  .fs-xl-15{
+    font-size: 15px !important;
+  }
+  .fs-xl-16{
+    font-size: 16px !important;
+  }
+  .fs-xl-17{
+    font-size: 17px !important;
+  }
+  .fs-xl-18{
+    font-size: 18px !important;
+  }
+  .fs-xl-19{
+    font-size: 19px !important;
+  }
+  .fs-xl-20{
+    font-size: 20px !important;
+  }
+  .fs-xl-25{
+    font-size: 25px !important;
+  }
+  .fs-xl-30{
+    font-size: 30px !important;
+  }
+  .fs-xl-35{
+    font-size: 35px !important;
+  }
+  .fs-xl-40{
+    font-size: 40px !important;
+  }
+  /** line-height **/
+  .lh-xl-30{
+    line-height: 30px;
+  }
+  .lh-xl-35{
+    line-height: 35px;
+  }
+  .lh-xl-38{
+    line-height: 38px;
+  }
+}
